@@ -29,10 +29,10 @@ Here you could see the design of the movies pages:
 ## Installation
 
 - Clone repository
-  `git clone https://github.com/totisama/dreadfullCherryTomatoes`
+  `git clone https://github.com/totisama/DreadfulCherryTomatoes`
 - Run the following commands
   ```
-  cd dreadfullCherryTomatoes
+  cd DreadfulCherryTomatoes
   npm install
   npm run dev
   ```
