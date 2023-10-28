@@ -1,0 +1,49 @@
+.paginator {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.pages {
+  height: 35px;
+  display: flex;
+  gap: 7px;
+}
+
+.page {
+  height: 32px;
+  width: 32px;
+  background-color: #C42521;
+  border-radius: 50%;
+  color: white;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.page:hover {
+  background-color: #E62421;
+  opacity: 1;
+  height: 35px;
+  width: 35px;
+}
+
+.active {
+  background-color: #E62421;
+  opacity: 1;
+}
+
+.active:hover {
+  height: 32px;
+  width: 32px;
+}
+
+.arrow {
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border-width: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,12 @@
+.home {
+  padding: 0px 135px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.moviesContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}

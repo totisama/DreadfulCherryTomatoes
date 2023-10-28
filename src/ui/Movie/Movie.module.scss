@@ -1,0 +1,54 @@
+.movie {
+  position: relative;
+  width: 228px;
+  height: 300px;
+}
+
+.title {
+  color: white;
+  font-size: 16px;
+}
+
+.information {
+  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  width: 208px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  bottom: 0;
+  margin: 0px;
+  padding: 0px 10px;
+}
+
+.movie img {
+  width: 228px;
+  height: 300px;
+  object-fit: fill;
+}
+
+.extra {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.extra h5,
+.extra p {
+  margin: 0;
+}
+
+.movie:hover {
+  .information {
+    max-height: 200px;
+    padding-bottom: 15px;
+  }
+
+  .extra {
+    display: flex;
+    overflow-y: scroll;
+  }
+}
